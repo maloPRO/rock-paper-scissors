@@ -1,0 +1,69 @@
+html {
+    background: url('/images/xubuntu-zesty.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body {
+    width: 60%;
+    height: auto;
+    padding: 5%;
+    margin-top: 30px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 10px 0 rgba(250, 250, 250, 0.304);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+} 
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    position: relative;
+ 
+}
+#gameTitle {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+}
+button {
+    width: 140px;
+    height: 140px;
+    margin: 10px;
+    font-weight: 800;
+    border-radius: 70px;
+    background-color: white;
+    border: #fff;
+}
+button:hover {
+    transform: scale(1.05);
+}
+.pic {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+}
+#scores {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+#results {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    color: rgb(73, 3, 3); 
+    font-size: 50px;
+}

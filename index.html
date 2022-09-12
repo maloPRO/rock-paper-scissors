@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="/js/script.js"></script>
+    <link rel="stylesheet" href="/styles/style.css">
+    
 </head>
 <body>
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
+    <div id="gameTitle">ROCK PAPER SCISSORS</div>
+        <div id="container">
+            <button id="rock"><img src="/images/rock.jpeg" alt="" class="pic"></button>
+            <button id="paper"><img src="/images/paper.jpeg" alt="" class="pic"></button>
+            <button id="scissors"><img src="/images/scissors.jpeg" alt="" class="pic"></button>
+        </div>
+        <div id="results">Select an option to Start</div>
+        <div id="scores">
+            <div id="playerScore"></div>
+            <div id="computerScore"></div>
+        </div>
 </body>
+<script src="/js/script.js"></script>
 </html>
