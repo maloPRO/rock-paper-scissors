@@ -80,6 +80,12 @@ btn.forEach(button => {
         playRound(playerSelection);
 
     })
+    button.addEventListener('mousedown', () => {
+        button.style = 'transform: scale(1.05)';
+    })
+    button.addEventListener('mouseup', () => {
+        button.style = 'transform: scale(1)';
+    })
 })
 
 
