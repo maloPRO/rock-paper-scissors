@@ -12,7 +12,7 @@ function  playRound(playerSelection) {
     function gameOver() {
         playerScore = 0;
         computerScore = 0;
-        result.textContent = 'Game over'
+        result.textContent = 'Game over.'
     }
 
     let computerSelection = computerPlay();
@@ -62,12 +62,12 @@ function  playRound(playerSelection) {
 
     if (playerScore === 5) {
         gameOver();
-        confirm('PLAYER WINS THE GAME');
+        confirm('PLAYER WINS THE GAME.');
         confirm('Play Again?');
 
     }else if (computerScore === 5) {
         gameOver();
-        confirm('COMPUTER WINS THE GAME');
+        confirm('COMPUTER WINS THE GAME.');
         confirm('Play Again?');
     }
 }
