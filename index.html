@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/styles/style.css">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/styles/style.css">  
 </head>
 <body>
-    <div id="gameTitle">ROCK PAPER SCISSORS</div>
-        <div id="container">
-            <button id="rock"><img src="/images/rock.jpeg" alt="" class="pic"></button>
-            <button id="paper"><img src="/images/paper.jpeg" alt="" class="pic"></button>
-            <button id="scissors"><img src="/images/scissors.jpeg" alt="" class="pic"></button>
-        </div>
-        <div id="results">Select an option to Start</div>
-        <div id="scores">
-            <div id="playerScore"></div>
-            <div id="computerScore"></div>
-        </div>
+  <div id="container">
+    <div id="gameScreen">
+      <div id="gameTitle">ROCK PAPER SCISSORS</div>
+      <div id="game">
+        <button class="gameoptions" id="rock"><img src="/images/rock.jpeg" alt="" class="pic"></button>
+        <button class="gameoptions" id="paper"><img src="/images/paper.jpeg" alt="" class="pic"></button>
+        <button class="gameoptions" id="scissors"><img src="/images/scissors.jpeg" alt="" class="pic"></button>
+      </div>
+      <div id="results">Select an option to Start</div>
+      <div id="scores">
+        <div id="playerScore">Player Score: 0</div>
+        <div id="computerScore">Computer Score: 0 </div>
+      </div>
+    </div>
+  </div>
 </body>
 <script src="/js/script.js"></script>
 </html>
