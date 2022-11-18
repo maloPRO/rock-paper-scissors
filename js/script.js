@@ -88,6 +88,7 @@ const btn = document.querySelectorAll('button');
 btn.forEach(button => {
     button.addEventListener('click', () => {
         let playerSelection = button.id;
+        let computerSelection = computerPlay();
         playRound(playerSelection);
 
     })
@@ -100,6 +101,8 @@ btn.forEach(button => {
 })
 
 newGame.addEventListener('click', () => {
+	playerScore = 0;
+	computerScore = 0;
 	container.removeChild(gameOverScreen);
 	container.appendChild(gameScreen)
 })
